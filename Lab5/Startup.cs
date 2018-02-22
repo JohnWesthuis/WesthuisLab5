@@ -48,7 +48,7 @@ namespace Lab5
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Movies}/{action=Index}/{id?}");
             });
         }
     }
